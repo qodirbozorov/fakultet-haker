@@ -7,7 +7,7 @@ with open('talabalar.json') as json_file:
 	data = json.load(json_file)
 
 	# Print the type of data variable
-	print("Type:", type(data), "⌛Running ...")
+	print("Type:", type(data), "-- Running ...")
 #inline keybordni va knopkalarni chaqirdim
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup
 from telegram.ext import (Updater, CommandHandler, Filters, ConversationHandler, MessageHandler)
